@@ -1,0 +1,29 @@
+{
+  "name": "mushroom-kingdom-middleware",
+  "version": "1.0.0",
+  "description": "Let's build a simple server that pipes the client's request through multiple functions.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katreinhart/mushroom-kingdom-middleware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katreinhart/mushroom-kingdom-middleware/issues"
+  },
+  "homepage": "https://github.com/katreinhart/mushroom-kingdom-middleware#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "morgan": "^1.9.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
